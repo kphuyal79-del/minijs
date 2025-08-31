@@ -1,0 +1,74 @@
+.container {
+      width: 400px;
+      height: 400px;
+      border: 3px solid black;
+      border-radius: 50%;
+      position: relative;
+      margin: 50px auto;
+    }
+
+    .time span {
+      position: absolute;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .time span:nth-child(1) { 
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: red;
+    }
+    .time span:nth-child(2) { 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: blue; 
+    }
+    .time span:nth-child(3) { 
+        bottom: 10px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        color: green; }
+    .time span:nth-child(4) { 
+        left: 10px; 
+        top: 50%; 
+        transform: translateY(-50%); 
+        color: purple; }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+
+    .hand {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform-origin: bottom center;
+      transform: rotate(0deg);
+    }
+
+    .hour {
+      width: 8px;
+      height: 90px;
+      background: black;
+    }
+
+    .min {
+      width: 5px;
+      height: 130px;
+      background: red;
+    }
+
+    .sec {
+      width: 3px;
+      height: 150px;
+      background: blue;
+    }

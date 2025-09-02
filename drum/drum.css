@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+}
+.container div{
+    width: 5%;
+    height: 100%;
+    border: 1px solid black;
+}
+.container div span{
+    position: relative;
+    top: 80%;
+    left: 31%;
+}
+.container div p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

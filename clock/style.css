@@ -72,3 +72,20 @@
       height: 150px;
       background: blue;
     }
+
+
+    .digital{
+      height: 50px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 100%;
+      left: 25%;
+    }
+    .digital span{
+      width: 60px;
+      height: auto;
+      text-align: center;
+    }
